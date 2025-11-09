@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# 恢复测试环境脚本
-# 用途：在运行测试前恢复CSV文件到初始状态
 
 echo "=== restoring envir ==="
 
@@ -9,7 +7,7 @@ echo "=== restoring envir ==="
 BACKUP_DIR=".backup_csv"
 DATA_DIR="data"
 
-# 检查backup目录是否存在
+
 if [ ! -d "$BACKUP_DIR" ]; then
     echo "error: cannot find $BACKUP_DIR dir"
     exit 1
