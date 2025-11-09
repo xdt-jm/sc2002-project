@@ -1,0 +1,12 @@
+# Claude Code configuration folder
+.claude/
+
+# macOS system files
+.DS_Store
+
+# IDE configuration
+.idea/
+
+# Build and test directories
+target/
+debug_tests/

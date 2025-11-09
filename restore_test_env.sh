@@ -1,11 +1,15 @@
 #!/bin/bash
 
+# Restore Test Environment Script
+# Purpose: Restore CSV files to initial state before running tests
+
 echo "=== restoring envir ==="
 
+# Define paths
 BACKUP_DIR=".backup_csv"
 DATA_DIR="data"
 
-
+# Check if backup directory exists
 if [ ! -d "$BACKUP_DIR" ]; then
     echo "error: cannot find $BACKUP_DIR dir"
     exit 1
