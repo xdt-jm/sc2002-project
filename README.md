@@ -34,7 +34,8 @@ script will do:
 
 ---
 
-## 14 test
+## 14 specific test 
+- (comprised of complicated cases which cannot be displayed in brief in command line for report, so i place test details here)
 
 1. CompanyRepApplicationSlotManagementTest 
 2. InternshipVisibilityTest
