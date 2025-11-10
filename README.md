@@ -235,6 +235,12 @@ sc2002-project/
 ├── javadoc/                     # Generated documentation
 │   └── index.html               # Documentation entry point
 │
+├── uml diagrams/                # uml class diagram
+│   ├── UML Class Diagram.jpg
+│   ├── UML Class Diagram.pdf
+│   ├── uml sequence diagram.png
+│   ├── uml class diagram.pdf
+│  
 ├── run_test_safe.sh             # Safe test execution script
 ├── restore_test_env.sh          # Environment restoration script
 └── README.md                    # This file
